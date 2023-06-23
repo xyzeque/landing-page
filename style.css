@@ -142,3 +142,32 @@ button {
   margin-left: auto;
   font-size: 24px;
 }
+
+/* call-to-action */
+
+.call-to-action {
+  padding: 48px 0;
+  background-color: #3FC1C9;
+  color: #F5F5F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  padding: 24px;
+  border-radius: 8px;
+  background-color: #FC5185;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 16px;
+}
+
+.cta-btn button {
+  border-radius: 4px;
+  border: 2px solid #F5F5F5;
+  color: #F5F5F5;
+  font-size: 16px;
+  padding: 8px 16px;
+}
