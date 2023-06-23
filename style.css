@@ -4,12 +4,26 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+button {
+  font-family: 'Courier New', Courier, monospace;
+  outline: none;
+  border: none;
+  background-color: #FC5185;
+  color: #F5F5F5;
+  padding: 8px 16px;
+  text-transform: uppercase;
+}
+
 /* HEADER */
 .header {
   background-color: #364F6B;
   color: #F5F5F5;
   display: flex;
   justify-content: space-around;
+}
+
+.header h1 {
+  font-size: 24px;
 }
 
 .nav {
