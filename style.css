@@ -8,9 +8,11 @@ button {
   font-family: 'Courier New', Courier, monospace;
   outline: none;
   border: none;
+  border-radius: 4px;
+  font-size: 16px;
   background-color: #FC5185;
   color: #F5F5F5;
-  padding: 8px 16px;
+  padding: 8px 24px;
   text-transform: uppercase;
 }
 
