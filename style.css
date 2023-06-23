@@ -14,7 +14,8 @@ button {
   text-transform: uppercase;
 }
 
-/* HEADER */
+/* header */
+
 .header {
   background-color: #364F6B;
   color: #F5F5F5;
@@ -43,7 +44,7 @@ button {
   text-decoration: none;
 }
 
-/* HERO */
+/* hero */
 
 .hero {
   padding: 24px;
@@ -53,7 +54,6 @@ button {
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  /* gap: 32px; */
 }
 
 .hero-content {
@@ -77,4 +77,39 @@ button {
   border: 4px solid #FC5185;
   height: auto;
   width: 600px;
+}
+
+/* info */
+
+.info {
+  padding: 64px 0px;
+  background-color: #3FC1C9;
+  color: #364F6B;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-container {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+}
+
+.card-txt {
+  padding: 8px;
+  width: 300px;
+}
+
+.card img {
+  border-radius: 8px;
+  border: 4px solid #FC5185;
+  height: 300px;
+  width: 300px;
 }
