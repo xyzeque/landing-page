@@ -18,7 +18,7 @@ button {
 
 .header {
   background-color: #364F6B;
-  color: #F5F5F5;
+  color: #3FC1C9;
   display: flex;
   justify-content: space-around;
 }
@@ -29,7 +29,7 @@ button {
 
 .nav {
   display: flex;
-  gap: 16px;
+  gap: 32px;
   align-items: center;
 }
 
@@ -40,7 +40,7 @@ button {
 }
 
 .nav li a {
-  color: #F5F5F5;
+  color: #3FC1C9;
   text-decoration: none;
 }
 
